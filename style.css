@@ -1,0 +1,215 @@
+* {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    margin-top: -10px;
+}
+
+body {
+display:block;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    font-family: Arial, sans-serif; /* Clean font */
+    
+  margin: 0 auto;          /* hamesha center align */
+  min-width: 500px;
+  max-width: 1800px;       /* screen badi ho to bhi 1200px se zyada na ho */
+  min-height: 100vh;       /* height kam se kam full screen ho */
+  padding: 20px;           /* thoda andar spacing */
+  d
+
+
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+
+
+.menu {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    display: block;
+    
+}
+a:focus{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+hr {
+  border: none;              /* Default border remove */
+  height: 1px;               /* Line ki thickness (kam karne ke liye 1px) */
+  background-color: #fff;    /* Line ka color */
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+
+
+.contact-btn {
+    margin-top: 11px;
+  background-color:#353434;   /* Black background */
+  color: #ffffff;              /* White text */
+  padding: 12px 24px;          /* Space inside button */
+  border: none;                /* No border */
+  border-radius: 4px;          /* Slightly rounded corners */
+  font-size: 22px;             /* Text size */
+  
+  cursor: pointer;             /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.contact-btn:hover {
+  background-color: #676666;   /* Dark gray on hover */
+}
+
+.size-6{
+    color: white;
+    height: 11px;
+    margin-left: 2px;
+}
+.our{
+color: white;
+padding-top: 20px;
+letter-spacing: 8px;
+font-weight: lighter;
+font-size: 30px;
+}
+
+.how{
+color: white;
+padding-top: 15px;
+font-size: 53px;
+
+}
+
+.para{
+color: white;
+padding-top: 20px;
+/* padding-bottom: 4px; */
+font-size: 20px;
+letter-spacing: 1px;
+
+}
+
+.get{
+    margin-top: 25px;
+
+  background-color:#151515;   /* Black background */
+  color: #ffffff;              /* White text */
+  padding: 13px 30px;          /* Space inside button */
+  border: none;                /* No border */
+  border-radius: 4px;          /* Slightly rounded corners */
+  font-size: 22px;             /* Text size */
+  
+  cursor: pointer;             /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+.get:hover {
+  background-color: #333333;   /* Dark gray on hover */
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  background-color:transparent;   /* Dark background */
+  color: #fff;                 /* White text */
+  border-radius: 8px;          /* Rounded corners */
+  padding: 20px;
+  padding-bottom: 30px;
+  width: 450px;                /* Card width */
+  height: 290px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  gap: 12px;                   /* Space between elements */
+justify-content:flex-start;
+  border: 0.5px solid rgba(255,255,255,0.2); /* ultra thin + light */
+  cursor: pointer;             /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+
+  
+}
+
+
+.card:hover{
+ border: 1px solid white; 
+    background-color: #484847;!important
+transform: translateY(-5px); /* card thoda lift hoga */
+
+
+                        
+}
+
+
+
+
+.card-icon  {
+    color: white;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-color: #FFFFF3;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 10;
+  margin-top: 15px;
+  background-color: transparent;
+  
+}
+
+.card-text {
+  font-size: 20px;
+  line-height: 2;
+  color:#FFFFF3;                 /* Light grey text */
+  background-color: transparent;
+
+}
+
+.card-link {
+    font-size: 25px;
+  color: #00bfff;              /* Accent color */
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: auto;            /* Push link to bottom */
+  background-color: transparent;
+
+}
+
+
+
+
+
+
+.container{
+     display: flex;
+  flex-direction: row;   /* cards ek row mein */
+  flex-wrap: wrap;       /* agar jagah kam ho to next line mein chale jaayein */
+  gap: 20px;             /* cards ke beech spacing */
+  justify-content:flex-start; /* center align horizontally */
+}
